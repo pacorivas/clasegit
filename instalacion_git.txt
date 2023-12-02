@@ -1,0 +1,28 @@
+Set your username:
+git config --global user.name "FIRST_NAME LAST_NAME"
+
+Set your email address:
+git config --global user.email "MY_NAME@example.com"
+
+
+CLONAR UN REPOSITORIO
+git clone <IDENTIFICADOR_DE_REPOSITORIO>
+	- git clone git@github.com:pacorivas/clasegit.git
+
+OBTENER EL ESTADO DE UN REPOSITORIO EN LOCAL (ver que cambios están disponibles)
+	- git status
+
+AÑADIR FICHEROS A COMPROMETER
+	- git add <file1> <file2> <filen>
+
+COMPROMETER LOS FICHEROS AÑADIDOS EN LOCAL
+	- git commit -m "<COMENTARIO SOBRE LOS FICHEROS AÑADIDOS>"
+
+SUBIR LOS CAMBIOS AL REPOSITORIO EN LA NUBE
+	- git push
+
+
+ssh-keygen -t rsa -b 4096 -f $HOME/.ssh/id_rsa
+
+
+Darse de alta en GitHub
